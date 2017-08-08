@@ -1,0 +1,88 @@
+
+@media screen and (max-width:1098px){
+    .area_post .conteudo{     max-width: 634px; }
+
+}
+@media screen and (max-width:1024px){
+    .navbar .menu{ left: 57%; }
+    .navbar .redes{ right: 3%; }
+    .navbar .icones-right .pesquisa{ right: 12%; }
+}
+@media screen and (max-width:937px){
+
+.area_post aside{ display: block; width: 100%!important; float: inherit;  margin: 0px auto; max-width: 630px; }
+.area_post aside, .area_post_interna .aside_interno{ margin-top: 0px!important; }
+}
+@media screen and (max-width:991px){
+    .newsletter .categorias{ max-width: 100%; }
+    .newsletter .facebook{ float: inherit; width:100%; }
+}
+
+@media screen and (max-width:908px){
+    .navbar .menu a{ font-size:14px; }
+}
+@media screen and (max-width:860px){
+    .carousel-inner .item img{     min-height: 430px; height:100%; }
+    .navbar .icones-right{ width: 100%; padding: 37px 100px; }
+    .navbar .redes{ right:3px!important; }
+    .navbar .icones-right .pesquisa{ right: 3%; }
+    .navbar .tarja .redes{ width: 288px; }
+    .navbar .menu{ max-width: 100%; }
+    /* menu appearance - aparencia do menu */
+    .navbar .menu{ position:absolute; top:94px; color:#999; margin:0px; padding:0px; text-align:center; left:0px; box-shadow:0 1px 8px rgba(0,0,0,0.05); 
+    /*just for this demo - apenas para esta demo*/ opacity:0; visibility:hidden; transition:opacity .4s;     transform: translateX(0%);}
+    .navbar .menu-mobile{  top:54px; transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+            -o-transition: all 0.4s ease;
+                -moz-transition: all 0.4s ease; }
+    .navbar .menu li{  width:100%; background-color:#f7f7f7; padding:33px 0px!important; line-height: 10px; border-top: 1px solid #aaa;  }
+    .navbar .menu li a{ font-size:18px; color:#000!important; border: transparent; vertical-align: middle; }
+    .navbar .redes{ top: -44%; right: 95px; transform: translateY(44%)translateX(0%); }
+    .navbar .pesquisa{ top: -64%; right: 107px; transform: translateY(64%)translateX(0%); }
+    .navbar .form_pesquisa_mobile{ top: 10%; }
+    /* on activation - na ativacao" */
+    .toggle{ background-color: #a7a7a7; float: right; display: block!important; width:60px; height: 17px; padding: 31px 16px 28px; margin:18px 11px; border-radius:48px; position:relative; z-index:9999999999; } 
+    .toggle-sticky{ background-color: #0a2c4b; float: right; display: block!important; width: 49px; height: 48px; padding: 25px 12px 20px; margin: 3px 7px; border-radius: 0px; position: relative; z-index: 999; } 
+    .toggle.on span{ background-color: transparent; }
+    .toggle.on{ background-color:#001146; }
+    .toggle.on span:before{ transform: rotate(45deg) translate(9px, 9px); background-color: #fff; }
+    .toggle.on span:after{ transform: rotate(-45deg) translate(7px, -8px); background-color: #fff; }
+    .toggle.on + .menu{ opacity: 1; visibility:visible; display:block; background: #fff; width:100%; height:auto; z-index: 1; box-shadow: 0px 4px 10px rgba(0,0,0,0.3); }
+    .navbar .redes{ display:none; }
+}
+
+
+@media (min-width: 0px){
+     .navbar-nav{ float: initial!important; }
+} 
+
+@media screen and (max-width:768px){
+    .navbar-nav{ width:100%!important; }
+    .navbar .redes{ top: 44%; right:8px; transform: translateY(44%); }
+    .navbar .pesquisa{ top: 33%; right:21px; transform: translateY(33%); }
+    .conteudo{ padding:0px; }
+    .post p{ font-size: 20px; text-align: justify; }
+    .newsletter .box-left{ min-height: 224px; }
+    .newsletter .box-left .logos{ margin: 50px 0px; }
+    .newsletter .box-left .redes-footer{ margin-bottom: 24px; }
+    .newsletter .categorias{ padding: 50px 0px 30px 35px; min-height: auto; }
+    .newsletter .facebook{ margin:50px 0px; }
+    
+
+}
+
+@media screen and (max-width:640px){
+    .carousel-inner .item img{     min-height: 190px; height:100%; }
+    .navbar .navbar-brand-blog{ width: 27%; padding: 27px 10px; }
+    .navbar .navbar-brand, .navbar .navbar-brand:hover{ background-color: #fff; padding: 29px 10px; }
+    .title_post{ height:300px; }
+    .title_post h1{     margin: 34px auto; }
+    .title_post p{     margin: 53px auto;     font-size: 22px; }
+    .area_post .conteudo table td h3{     margin: 20px 0px; font-size: 16px; }
+    .area_post .conteudo{ margin: -76px 0px 30px; }
+    .area_post .conteudo p, .area_post .conteudo img{ padding: 15px; }
+    .area_post .box{ margin: 0px auto 30px; }
+    .footer span {margin:10px 0px 0px; font-family: 'owd-regular',sans-serif;    display: inline-block; line-height: 100%; font-size: 16px; }
+
+}
+

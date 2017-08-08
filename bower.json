@@ -1,0 +1,20 @@
+{
+  "name": "globoconsorcio",
+  "homepage": "https://github.com/brunolimadevelopment/globoconsorcio",
+  "authors": [
+    "bruno developer <brunolimadeveloper@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

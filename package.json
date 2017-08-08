@@ -1,0 +1,19 @@
+{
+  "name": "globoconsorcio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunolimadevelopment/globoconsorcio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunolimadevelopment/globoconsorcio/issues"
+  },
+  "homepage": "https://github.com/brunolimadevelopment/globoconsorcio#readme"
+}

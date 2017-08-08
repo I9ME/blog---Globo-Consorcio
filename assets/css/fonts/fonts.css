@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'owd-bold';
+    src: url('owd-bold-webfont.woff') format('woff'),
+         url('owd-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'owd-light';
+    src: url('owd-light-webfont.woff') format('woff'),
+         url('owd-light-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'owd-extralight';
+    src: url('owd-extralight-webfont.woff') format('woff'),
+         url('owd-extralight-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'owd-regular';
+    src: url('owd-regular-webfont.woff') format('woff'),
+         url('owd-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'owd-semibold';
+    src: url('owd-semibold-webfont.woff') format('woff'),
+         url('owd-semibold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'owd-medium';
+    src: url('owd-medium-webfont.woff') format('woff'),
+         url('owd-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
